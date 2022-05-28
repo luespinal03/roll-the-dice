@@ -46,3 +46,26 @@ if (roll === 7){
 } else {
     console.log(roll);
 }
+
+/*
+// Tylers way 
+
+
+const prompt = require("prompt-sync")({ sigint: true });
+
+const riggedNumber = Number(prompt("Choose a number between 1 & 6: "))
+
+const rigged = (Math.floor(Math.random() * 6) === riggedNumber);
+
+if (riggedNumber < 7) {
+    if (rigged) {
+        console.log(riggedNumber);
+        console.log("RIGGED")
+    } else {
+        console.log(Math.floor(Math.random() * 6) + 1);
+    }
+} else {
+    console.log(riggedNumber);
+}
+
+ */
